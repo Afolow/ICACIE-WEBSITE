@@ -692,8 +692,6 @@ th {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* overflow-x: auto; */
-  /* padding: 0 2vw; */
   margin-bottom: 7%;
 }
 
@@ -714,7 +712,7 @@ th {
   border: 25px solid #fff;
   position: relative;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  margin-top: 5px;
+  margin: 10px 15px;
   /* margin: 18px 10px 40px; */
   /* transition: transform 0.2s ease-in; */
   flex: 0 0 auto; /*flex-grow, flex-shrink, flex-basis*/
