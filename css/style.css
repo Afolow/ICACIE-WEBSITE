@@ -585,6 +585,7 @@ th {
   flex-direction: column; /*recentAdd */
   overflow: hidden;
   position: relative; /*so that the arrow button position can be set to absolute for it not to take full height at height:100%*/
+  margin: 80px 0;
   /* height: 300px; */
 }
 
@@ -605,7 +606,7 @@ th {
 
 .accomodation-hotels h1 {
   text-align: center;
-  margin: 3% auto;
+  margin-bottom: 50px;
   font-family: "Gothic A1", sans-serif;
   text-transform: uppercase;
 }
