@@ -464,6 +464,24 @@ h4 {
   /* background-size: cover; */
 }
 
+.btn-host-institute {
+  background-color: var(--blue04-color);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  /* text-align: center; */
+  text-decoration: none;
+  /* display: block; */
+  font-size: 1rem;
+  /* margin: 0 auto; */
+  width: 50%;
+  cursor: pointer;
+}
+
+.btn-host-institute:hover {
+  background-color: var(--blue01-color);
+}
+
 /* MEDIA QUERIES - MEDIUM DEVICE 768PX */
 @media only screen and (max-width: 768px) {
   .row {
