@@ -37,7 +37,6 @@ html {
 
 .nav-links {
   display: flex;
-  /* border: 1px solid black; */
 }
 
 nav {
@@ -50,7 +49,6 @@ nav {
 
 .logo {
   display: inline-block;
-  /* border: 1px solid black; */
 }
 
 .nav-links {
@@ -108,23 +106,20 @@ nav {
     opacity: 1;
   }
 
+  /* -------Navigation btn design---------- */
   .nav-btn {
     display: block;
   }
 }
-
 .nav-active {
   transform: translateX(0%); /*use toggle the navbar in js */
 }
-
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
-
 .toggle .line2 {
   opacity: 0;
 }
-
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
@@ -201,19 +196,14 @@ nav {
   background-image: url("../images/sunset03.jpg");
   background-size: cover;
   background-position: 50%;
-  /* background-repeat: no-repeat; */
-  /* background-color: var(--blue01-color); */
-  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
-  /* border: 1px solid black; */
   max-width: 60vw;
   height: 40vh;
-  /* background-color: lightblue; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,7 +273,7 @@ nav {
   }
 }
 
-/* --------sponsor------------ */
+/* ----------sponsor------------ */
 .sponsors h1 {
   text-align: center;
   margin: 4rem 0;
@@ -295,7 +285,6 @@ nav {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  /* height: 100%; */
   margin: 80px 0;
   overflow: auto;
 }
@@ -328,10 +317,6 @@ p {
   font-weight: 600;
 }
 
-/* .footer-container p {
-  margin-top: 15px;
-} */
-
 /* ----------speakers page css----------- */
 .speakers-section {
   display: flex;
@@ -342,9 +327,6 @@ p {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* overflow-x: auto; */
-  /* padding: 0 2vw; */
-
   margin-bottom: 15%;
   background: linear-gradient(
     to bottom,
@@ -375,8 +357,6 @@ p {
   position: relative;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   margin: 10px;
-  /* margin: 18px 10px 40px; */
-  /* transition: transform 0.2s ease-in; */
   flex: 0 0 auto; /*flex-grow, flex-shrink, flex-basis*/
 }
 
@@ -413,14 +393,10 @@ p {
 }
 
 .column {
-  /* background-color: var(--grey01-color); */
-  /* height: 400px; */
   padding: 2.2rem 2.2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* margin: 30px 0; */
-  /* border: 1px solid black; */
 }
 
 .divider {
@@ -451,17 +427,14 @@ h4 {
 
 .column-img-1 {
   background-image: url("../images/ravenala.jpg");
-  /* background-size: cover; */
 }
 
 .column-img-2 {
   background-image: url("../images/university-mauritius.jpg");
-  /* background-size: cover; */
 }
 
 .column-img-3 {
   background-image: url("../images/macon.jpg");
-  /* background-size: cover; */
 }
 
 .btn-host-institute {
@@ -469,11 +442,8 @@ h4 {
   border: none;
   color: white;
   padding: 15px 32px;
-  /* text-align: center; */
   text-decoration: none;
-  /* display: block; */
   font-size: 1rem;
-  /* margin: 0 auto; */
   width: 50%;
   cursor: pointer;
 }
@@ -494,12 +464,15 @@ h4 {
 
   .column {
     flex-basis: 100%;
-    /* min-height: 400px; */
   }
 
   .column-img {
     min-height: 400px;
     width: 100%;
+  }
+
+  .btn-host-institute {
+    margin: 0 auto;
   }
 }
 
@@ -535,7 +508,6 @@ th {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  /* display: block; */
   font-size: 16px;
   margin: 0 auto;
   width: 15%;
@@ -555,7 +527,6 @@ th {
 .info-container {
   display: flex;
   flex-direction: column;
-  /* margin: 0 10px; */
   background-image: url(../images/SunsetSky06.jpg);
 }
 
@@ -564,7 +535,6 @@ th {
   flex-direction: column;
   align-items: center;
   height: 190px;
-  /* background-color: lightblue; */
   margin: 0 10% 20px 10%;
   border-radius: 7px;
   background-color: #fff;
@@ -604,17 +574,12 @@ th {
   overflow: hidden;
   position: relative; /*so that the arrow button position can be set to absolute for it not to take full height at height:100%*/
   margin: 80px 0;
-  /* height: 300px; */
 }
 
 .container-hotels {
   display: flex;
-  /* width: 50vw; */
-  /* justify-content: space-evenly; */
-  /* flex-wrap: wrap; */
   overflow-x: auto;
   padding: 0 10vw;
-  /* max-width: 80vw; */
 }
 
 /*disable browser scrollbar*/
@@ -731,8 +696,6 @@ th {
   position: relative;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   margin: 10px 15px;
-  /* margin: 18px 10px 40px; */
-  /* transition: transform 0.2s ease-in; */
   flex: 0 0 auto; /*flex-grow, flex-shrink, flex-basis*/
   transition: transform 0.2s ease-in;
 }
