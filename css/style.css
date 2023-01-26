@@ -448,6 +448,54 @@ h4 {
   }
 }
 
+/* ------------registration css-------------- */
+.register-description {
+  padding-bottom: 0.8rem;
+  text-align: left;
+  color: #000;
+}
+
+.reg-table {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.reg-fee-details {
+  border-collapse: collapse;
+  background-color: var(--grey01-color);
+  width: 20em;
+}
+
+.reg-fee-details td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.button-register {
+  background-color: var(--blue04-color);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: block; */
+  font-size: 16px;
+  margin: 0 auto;
+  width: 15%;
+
+  cursor: pointer;
+}
+
+.button-register:hover {
+  background-color: var(--blue01-color);
+}
+
+.register-description--1 {
+  margin-bottom: 40px;
+}
+
 /* ----------Travel info css---------------- */
 .info-container {
   display: flex;
