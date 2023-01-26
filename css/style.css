@@ -21,6 +21,10 @@ html {
   padding: 0;
 }
 
+.font-family-gothic {
+  font-family: "Gothic A1", sans-serif;
+}
+
 /*style navbar*/
 .navbar {
   display: flex;
@@ -195,7 +199,6 @@ nav {
   background-size: 100%;
   background-image: url("../images/sunset03.jpg");
   background-size: cover;
-
   background-position: 50%;
   /* background-repeat: no-repeat; */
   /* background-color: var(--blue01-color); */
@@ -229,19 +232,52 @@ nav {
 }
 
 .showcase-text button {
-  width: 120px;
-  height: 40px;
+  width: 28%;
+  height: 4em;
   margin: 0 auto;
-
   display: block;
   margin-top: 50px;
   cursor: pointer;
+  background-color: var(--blue04-color);
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.showcase-text button:hover {
+  background: none;
+  border: 5px solid #fff;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  height: 57vh;
+  width: 100%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.about p {
+  color: #000;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 25px;
 }
 
 /* MEDIA QUERIES - MEDIUM DEVICE 768PX */
 @media only screen and (max-width: 678px) {
   .showcase-text h1 {
-    font-size: 1.5rem;
+    font-size: 2.5px;
   }
   .showcase-text p {
     font-size: 1rem;
