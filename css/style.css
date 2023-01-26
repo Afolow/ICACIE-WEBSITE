@@ -2,6 +2,7 @@
   --blue01-color: rgb(0, 88, 138);
   --grey01-color: rgb(167, 169, 172);
   --blue04-color: rgb(84, 198, 211);
+  --blue05-color: rgb(0, 183, 199);
 }
 
 html {
@@ -253,22 +254,20 @@ nav {
 .about {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  /* flex-direction: column; */
-  height: 57vh;
   width: 100%;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .container-about {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   width: 80%;
+  height: 100%;
+  margin: 90px 0;
 }
 
-.about p {
+.container-about p {
   color: #000;
   font-family: "Gothic A1", sans-serif;
   line-height: 25px;
@@ -287,7 +286,8 @@ nav {
 /* --------sponsor------------ */
 .sponsors h1 {
   text-align: center;
-  margin: 2rem 0;
+  margin: 4rem 0;
+  font-weight: bold;
 }
 
 .sponsors-list {
@@ -295,9 +295,8 @@ nav {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  /* border: 1px solid black; */
-  height: 60%;
-  margin: 0 auto;
+  /* height: 100%; */
+  margin: 80px 0;
   overflow: auto;
 }
 
@@ -312,10 +311,10 @@ nav {
   margin: 0;
 }
 
+/* ----------Footer css----------- */
 .footer-container {
-  /* border: 1px solid black; */
-  height: 175px;
-  background-color: var(--blue01-color);
+  height: 210px;
+  background-color: var(--blue05-color);
   padding-top: 40px;
 }
 
@@ -325,6 +324,8 @@ p {
   text-align: center;
   font-family: "Gothic A1", sans-serif;
   color: #fff;
+  line-height: 1.5em;
+  font-weight: 600;
 }
 
 /* .footer-container p {
